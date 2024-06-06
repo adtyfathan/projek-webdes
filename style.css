@@ -37,6 +37,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: brightness(80%);
 }
 
 .landing-container {
@@ -63,7 +64,7 @@
     object-fit: cover;
     z-index: -1;
     /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0 100%); */
-    filter: brightness(25%);
+    filter: brightness(20%);
     transition: flex 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
 
@@ -107,4 +108,23 @@
         transform: translateX(0);
         opacity: 1;
     }
+}
+
+.brand-container {
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+
+}
+
+.brand-content {
+    flex: 1;
+}
+
+.brand-content h1 {
+    margin-bottom: 40px;
+}
+
+.brand-container img {
+    flex: 1.75;
 }
