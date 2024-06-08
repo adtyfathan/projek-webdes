@@ -5,6 +5,7 @@ const data = [
         power: "1015 CV",
         max_speed: "350km/h",
         acceleration: "2.5s",
+        image: "./asset/revuelto_m1.jpg",
         description: "Just before the 60th anniversary of the marque, Lamborghini unveiled Revuelto, the first HPEV (High Performance Electrified Vehicle) hybrid super sports car. With the Revuelto, Lamborghini has established a new benchmark in performance, on-board technology, and driving pleasure. The ultimate thrill provided by the Revuelto is reached thanks to a powertrain that delivers 1015 CV total, combining the power of a brand-new 12-cylinder internal combustion engine with three high-density electric motors and a groundbreaking transversal dual clutch e-gearbox. The power of hybridization is harnessed to take performance and driving emotions to an unprecedented level."
     },
     {
@@ -13,6 +14,7 @@ const data = [
         power: "770 CV",
         max_speed: "350km/h",
         acceleration: "2.8s",
+        image: "./asset/aventador_m.jpg",
         description: "The Aventador SVJ is the ultimate expression of the Lamborghini DNA. Combining the most advanced technological solutions and the highest expression of aerodynamics with the purity of its lines, the SVJ is a true icon of speed and performance. With a naturally aspirated V12 engine and lightweight construction, it delivers unparalleled power and driving dynamics."
     },
     {
@@ -21,6 +23,7 @@ const data = [
         power: "640 CV",
         max_speed: "325km/h",
         acceleration: "2.9s",
+        image: "./asset/huracan_m1.jpg",
         description: "The Huracán EVO represents the natural evolution of the most successful V10-powered Lamborghini. Incorporating the latest technological advancements, the Huracán EVO offers enhanced aerodynamics, improved handling, and a cutting-edge infotainment system. The V10 engine delivers a thrilling driving experience, making the EVO a true masterpiece."
     },
     {

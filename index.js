@@ -2,7 +2,6 @@ import { data } from "./datas.js";
 
 let activeSlide = 2;
 
-// console.log(data);
 
 data.map(x => {
     console.log(x.model);
