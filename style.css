@@ -171,7 +171,7 @@
 }
 
 .news-button {
-    background-color: white;
+    background-color: transparent;
     color: black;
     border: 0.5px solid rgba(100, 100, 100, 0.404);
     padding: 18px 65px;
@@ -229,6 +229,11 @@
     height: 100vh;
 }
 
+.model-active {
+    background-color: rgb(243, 243, 243);
+    transition: background-color 0.25s ease-in-out;
+}
+
 .model-content {
     flex: 1;
     overflow: auto;
@@ -237,6 +242,7 @@
 .model-display {
     flex: 2;
     position: relative;
+    background-color: black;
 }
 
 .model-display img {
@@ -246,4 +252,63 @@
     object-position: center;
     z-index: -1;
     transition: width 0.5s ease-in-out;
+}
+
+.model-items-container {
+    position: absolute;
+    bottom: 7%;
+    left: 12%;
+    color: white;
+    width: 78%;
+}
+
+.model-content-items {
+    padding: 20px 40px;
+}
+
+.model-content-items h1 {
+    font-weight: 500;
+}
+
+.model-items-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px
+}
+
+.model-items-header h4 {
+    font-weight: 300;
+    font-size: 28px;
+    color: rgb(200, 200, 200);
+}
+
+.model-items-header h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.model-items-header button {
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid rgba(255, 255, 255, 0.6);
+    padding: 14px 45px;
+    font-size: 16px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+.model-items-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.model-items-sub p{
+    color: rgb(200, 200, 200);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.model-items-sub h4 {
+    font-size: 28px;
 }
