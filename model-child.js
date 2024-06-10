@@ -1,4 +1,4 @@
-const modelChild = document.querySelector(".model-child-wrapper");
+const modelContainer = document.getElementById("model-content");
 
 function getQueryParams() {
     return new URLSearchParams(window.location.search);
@@ -6,17 +6,102 @@ function getQueryParams() {
 
 window.onload = function () {
     const params = getQueryParams();
-    // console.log(params.get("model"))
+    // headerImg.setAttribute("src", params.get("image"));
     const contentDiv = document.createElement("div");
-    contentDiv.classList.add("model-child-container");
     contentDiv.innerHTML = `
-        <h4>${params.get("brand")}</h4>
-        <h1>${params.get("model")}</h1>
-        <p>${params.get("power")}</p>
-        <p>${params.get("max_speed")}</p>
-        <p>${params.get("price")}</p>
+        <div class="model-items-wrapper">
+            <div class="model-items-container" style="display: block;">
+                <h4 style="font-size: 36px; font-weight: 300;">${params.get("brand")}</h4>
+                <h1 style="font-size: 86px;">${params.get("model")}</h1>
+                <div class="model-items-sub" style="margin-top: 50px;">
+                    <div style="display: flex; gap: 20px; align-items: center;">
+                        <p>Price</p>
+                        <h4 class="model-price">${params.get("price")}</h4>
+                    </div>
+                    <div style="display: flex; gap: 20px; align-items: center;">
+                        <p>Max Speed</p>
+                        <h4 class="model-speed">${params.get("max_speed")}</h4>
+                    </div>
+                    <div style="display: flex; gap: 20px; align-items: center;">
+                        <p>Power</p>
+                        <h4 class="model-power">${params.get("power")}</h4>
+                    </div>
+                </div>
+            </div>
+            <img src="${params.get("image")}" class="model-image" />
+        </div>
+        
+        <div class="model-child-content">
+            <div class="model-child-image">
+                <img src="${params.get("image")}" class="model-child-image" width="100"/>
+            </div>
+            
+            <div class="model-child-text">
+                <h1>OVERVIEW</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet lacus quis enim lacinia, ut maximus ipsum luctus. Vestibulum sed est aliquet tellus ornare condimentum. Vestibulum felis arcu, ultrices in laoreet et, vehicula tempor lorem. Curabitur scelerisque, turpis a finibus iaculis, lacus est eleifend quam, nec gravida nulla tortor ac nunc. Aliquam erat volutpat. Curabitur ac tortor vel lacus vehicula commodo. In quis nisl eu mi viverra sagittis eu id velit. Nam elementum libero quis hendrerit convallis. Duis in turpis efficitur, venenatis libero et, faucibus ante.</p>
+            </div>
+        </div>
+
+        <div class="model-child-content">
+            <div class="model-child-engine">
+                <h1>ENGINE</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet lacus quis enim lacinia, ut maximus ipsum luctus. Vestibulum sed est aliquet tellus ornare condimentum. Vestibulum felis arcu, ultrices in laoreet et, vehicula tempor lorem. Curabitur scelerisque, turpis a finibus iaculis, lacus est eleifend quam, nec gravida nulla tortor ac nunc. Aliquam erat volutpat. Curabitur ac tortor vel lacus vehicula commodo. In quis nisl eu mi viverra sagittis eu id velit. Nam elementum libero quis hendrerit convallis. Duis in turpis efficitur, venenatis libero et, faucibus ante.</p>
+            </div>
+            <div class="model-child-engine-img">
+                <img src="${params.get("image")}" class="model-child-image" width="100"/>
+            </div>
+        </div>
+
+        <div class="model-child-layout">
+            <div class="model-child-layout-image">
+                <img src="${params.get("image")}" />
+            </div>
+            <div class="model-child-layout-image" style="position: absolute; right: 0;">
+                <img src="${params.get("image")}" />
+            </div>
+        </div>
+
+        <div class="model-child-desc">
+            <div>
+                <h1>INTERIOR</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet lacus quis enim lacinia, ut maximus ipsum luctus. Vestibulum sed est aliquet tellus ornare condimentum. Vestibulum felis arcu, ultrices in laoreet et, vehicula tempor lorem. Curabitur scelerisque, turpis a finibus iaculis, lacus est eleifend quam, nec gravida nulla tortor ac nunc.</p>
+            </div>
+            <div>
+                <h1>EXTERIOR</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet lacus quis enim lacinia, ut maximus ipsum luctus. Vestibulum sed est aliquet tellus ornare condimentum. Vestibulum felis arcu, ultrices in laoreet et, vehicula tempor lorem. Curabitur scelerisque, turpis a finibus iaculis, lacus est eleifend quam, nec gravida nulla tortor ac nunc.</p>
+            </div>
+        </div>
+
+        <h1 style="text-align: center; margin-bottom: 40px;">SPECIFICATIONS</h1>
+
+        <div class="model-table-container">
+            <table class="model-table">
+                <tr>
+                    <td><h4>MAX POWER</h4></td>
+                    <td style="text-align: end;"><p>${params.get("power")}</p></td>
+                </tr>
+                <tr>
+                    <td><h4>TOP SPEED</h4></td>
+                    <td style="text-align: end;"><p>${params.get("max_speed")}</p></td>
+                </tr>
+                <tr>
+                    <td><h4>ACCELERATION</h4></td>
+                    <td style="text-align: end;"><p>${params.get("acceleration")}</p></td>
+                </tr>
+                <tr>
+                    <td><h4>POWER CONSUMPTION</h4></td>
+                    <td style="text-align: end;"><p>${params.get("power_consumption")}</p></td>
+                </tr>
+                <tr>
+                    <td><h4>PRICE</h4></td>
+                    <td style="text-align: end;"><p>${params.get("price")}</p></td>
+                </tr>
+            </table>
+        </div>
+        
     `;
-    modelChild.appendChild(contentDiv);
+
+    modelContainer.appendChild(contentDiv);
 }
 
 
