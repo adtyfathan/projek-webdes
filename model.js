@@ -6,7 +6,15 @@ const modelName = document.querySelector(".model-name");
 const modelPrice = document.querySelector(".model-price");
 const modelSpeed = document.querySelector(".model-speed");
 const modelPower = document.querySelector(".model-power");
+const modelButton = document.getElementById("x");
 const image = document.querySelector(".model-image");
+let currentData = data[0];
+
+modelButton.addEventListener("click", () => {
+    var queryString = new URLSearchParams(currentData).toString();
+    window.location.href = `./model-child.html?${queryString}`;
+    console.log(queryString);
+});
 
 data.forEach(item => {
     const contentDiv = document.createElement("div");
@@ -17,6 +25,8 @@ data.forEach(item => {
     contentDiv.addEventListener("mouseover", () => {
         changeDisplay(item);
         contentDiv.classList.add("model-active");
+        currentData = item;
+        console.log(currentData)
     })
     contentDiv.addEventListener("mouseout", () => {
         contentDiv.classList.remove("model-active");

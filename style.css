@@ -231,12 +231,15 @@
 
 .model-active {
     background-color: rgb(243, 243, 243);
-    transition: background-color 0.25s ease-in-out;
+    color: black;
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
 }
 
 .model-content {
     flex: 1;
     overflow: auto;
+    background-color: black;
+    color: white;
 }
 
 .model-display {
@@ -288,7 +291,7 @@
     font-size: 64px;
 }
 
-.model-items-header button {
+.model-button {
     background-color: transparent;
     color: white;
     border: 0.5px solid rgba(255, 255, 255, 0.6);
@@ -303,7 +306,7 @@
     justify-content: space-between;
 }
 
-.model-items-sub p{
+.model-items-sub p {
     color: rgb(200, 200, 200);
     font-size: 15px;
     font-weight: 300;
