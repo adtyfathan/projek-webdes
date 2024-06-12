@@ -11,11 +11,16 @@ window.onload = function () {
     // headerImg.setAttribute("src", params.get("image"));
     let contentDiv = document.createElement("div");
     contentDiv.innerHTML = `
-        <h1>${params.get("title")}</h1>
-        <img src="${params.get("image")}"/>
-        <p>${params.get("date")}</p>
-        <p>${params.get("description")}</p>
-        <h1>RELATED NEWS</h1>
+        <div class="banner">
+            <a href="./news.html">NEWS</a>
+            <p>/</p>
+            <p class="banner-child" style="margin-left: 15px;">${params.get("title")}</p>
+        </div>
+        <h1 class="news-content-child-header">${params.get("title")}</h1>
+        <img src="${params.get("image")}" style="margin: 50px 0;"/>
+        <p class="news-content-child-date">${params.get("date")}</p>
+        <p class="news-content-child-desc">${params.get("description")}</p>
+        <h1 style="margin: 100px 0 50px 0">OTHER NEWS</h1>
     `;
 
     newsContent.appendChild(contentDiv);
@@ -25,7 +30,7 @@ window.onload = function () {
         const randomDiv = document.createElement("div");
         randomDiv.innerHTML = `
             <div class="news-container">
-                <img src = "${news[randomNum].image}" width = "100" />
+                <img src="${news[randomNum].image}" width="100" />
                 <div class="news-content">
                     <h4>${news[randomNum].date}</h4>
                     <h1>${news[randomNum].title}</h1>
@@ -35,32 +40,14 @@ window.onload = function () {
                 </div>
             </div>
         `;
+        const button = randomDiv.querySelector(".news-button");
+        button.addEventListener("click", () => redirect(news[randomNum]));
         newsContent.appendChild(randomDiv);
     }
-
-    
 }
 
-
-
-// <div class="news-container">
-//     <img src = "${item.image}" width = "100" />
-//     <div class="news-content">
-//         <h4>${item.date}</h4>
-//         <h1>${item.title}</h1>
-//         <div>
-//             <button class="news-button">READ MORE</button>
-//         </div>
-//     </div>
-// </div>
-
-// <div class="news-container">
-//     <img src = "${item.image}" width = "100" />
-//     <div class="news-content">
-//         <h4>${item.date}</h4>
-//         <h1>${item.title}</h1>
-//         <div>
-//             <button class="news-button">READ MORE</button>
-//         </div>
-//     </div>
-// </div>
+function redirect(item) {
+    var queryString = new URLSearchParams(item).toString();
+    window.location.href = `./news-child.html?${queryString}`;
+    console.log(queryString);
+}

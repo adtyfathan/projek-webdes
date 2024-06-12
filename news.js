@@ -21,12 +21,6 @@ news.forEach(item => {
     newsWrapper.appendChild(contentDiv);
 })
 
-// newsButton.addEventListener("click", () => {
-//     var queryString = new URLSearchParams(item).toString();
-//     window.location.href = `./news-child.html?${queryString}`;
-//     console.log(queryString);
-// });
-
 function redirect(item) {
     var queryString = new URLSearchParams(item).toString();
     window.location.href = `./news-child.html?${queryString}`;
