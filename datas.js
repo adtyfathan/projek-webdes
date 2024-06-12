@@ -38,6 +38,7 @@ const data = [
     power: "650 CV",
     max_speed: "305km/h",
     acceleration: "3.6s",
+    image: "./asset/urus.jpeg",
     description:
       "The Urus is Lamborghini's first Super SUV, merging the soul of a super sports car with the functionality of an SUV. Equipped with a 4.0-liter twin-turbo V8 engine, it delivers exceptional performance, luxury, and versatility. The Urus is designed to provide an exhilarating driving experience on any terrain.",
     price: "$218,000",
@@ -48,6 +49,7 @@ const data = [
     power: "819 CV",
     max_speed: "350km/h",
     acceleration: "2.8s",
+    image: "./asset/sian.jpg",
     description:
       "The Sian FKP 37 is Lamborghini's first hybrid super sports car, featuring a groundbreaking combination of a V12 engine and a 48-volt e-motor. This limited-edition model showcases Lamborghini's commitment to innovation and sustainability while delivering unmatched power and performance. The Sian's futuristic design and advanced technology set a new standard in the world of supercars.",
     price: "$3,700,000",
@@ -58,6 +60,7 @@ const data = [
     power: "570 CV",
     max_speed: "325km/h",
     acceleration: "3.4s",
+    image: "./asset/gallardo.jpg",
     description:
       "The Gallardo LP 570-4 Superleggera is a lightweight, high-performance variant of the Gallardo. It features a 5.2-liter V10 engine, advanced aerodynamics, and extensive use of carbon fiber, making it one of the most agile and responsive Lamborghinis ever built.",
     price: "$237,600",
@@ -68,6 +71,7 @@ const data = [
     power: "670 CV",
     max_speed: "342km/h",
     acceleration: "3.2s",
+    image: "./asset/murcielago.jpg",
     description:
       "The Murciélago LP 670-4 SV (SuperVeloce) is the ultimate version of the Murciélago, boasting increased power, reduced weight, and enhanced aerodynamics. With its 6.5-liter V12 engine and aggressive design, it delivers a raw and exhilarating driving experience.",
     price: "$450,000",
@@ -78,6 +82,7 @@ const data = [
     power: "750 CV",
     max_speed: "355km/h",
     acceleration: "2.8s",
+    image: "./asset/veneno.jpeg",
     description:
       "The Lamborghini Veneno is a limited-production hypercar built to celebrate Lamborghini's 50th anniversary. With its radical design, extreme performance, and a 6.5-liter V12 engine, the Veneno is one of the most exclusive and sought-after Lamborghinis ever made.",
     price: "$4,500,000",
@@ -88,6 +93,7 @@ const data = [
     power: "770 CV",
     max_speed: "350km/h",
     acceleration: "2.8s",
+    image: "./asset/centenario.jpg",
     description:
       "The Centenario was created to honor the 100th birthday of Lamborghini's founder, Ferruccio Lamborghini. It features advanced aerodynamics, cutting-edge technology, and a powerful V12 engine. The Centenario is a true collector's item, with only 40 units produced.",
     price: "$2,000,000",
@@ -98,6 +104,7 @@ const data = [
     power: "650 CV",
     max_speed: "340km/h",
     acceleration: "3.4s",
+    image: "./asset/reventon.jpg",
     description:
       "The Lamborghini Reventón is an ultra-exclusive model inspired by the fastest airplanes. With its stealth-fighter design, carbon fiber body, and 6.5-liter V12 engine, the Reventón delivers exceptional performance and an unmatched visual presence.",
     price: "$2,000,000",
@@ -108,6 +115,7 @@ const data = [
     power: "530 CV",
     max_speed: "335km/h",
     acceleration: "3.9s",
+    image: "./asset/diablo.jpg",
     description:
       "The Diablo SV (SuperVeloce) is a high-performance variant of the iconic Diablo. With a 5.7-liter V12 engine and rear-wheel drive, the Diablo SV offers an exhilarating driving experience with distinctive styling and raw power.",
     price: "$300,000",
@@ -118,6 +126,7 @@ const data = [
     power: "814 CV",
     max_speed: "355km/h",
     acceleration: "2.8s",
+    image: "./asset/countach.jpg",
     description:
       "The Countach LPI 800-4 is a modern interpretation of the classic Countach, celebrating its legacy with advanced hybrid technology and a powerful V12 engine. With its iconic design and cutting-edge performance, the Countach LPI 800-4 bridges the past and future of Lamborghini.",
     price: "$2,640,000",
@@ -128,6 +137,7 @@ const data = [
     power: "640 CV",
     max_speed: "310km/h",
     acceleration: "3.0s",
+    image: "./asset/sto.jpg",
     description:
       "The Huracán STO (Super Trofeo Omologata) is a track-focused variant of the Huracán, designed for maximum performance and agility. With a naturally aspirated V10 engine and advanced aerodynamics, the Huracán STO delivers an unparalleled driving experience on both road and track.",
     price: "$327,838",
@@ -138,6 +148,7 @@ const data = [
     power: "830 CV",
     max_speed: "N/A",
     acceleration: "N/A",
+    image: "./asset/scv.jpg",
     description:
       "The Essenza SCV12 is a track-only hypercar with the most powerful V12 engine ever developed by Lamborghini. It features advanced aerodynamics and lightweight construction, designed exclusively for high-performance driving on the track.",
     price: "$2,700,000",
@@ -148,6 +159,7 @@ const data = [
     power: "819 CV",
     max_speed: "350km/h",
     acceleration: "2.9s",
+    image: "./asset/sian-roadster.jpg",
     description:
       "The Sián Roadster combines Lamborghini's legendary V12 engine with hybrid technology, offering a unique open-top driving experience. With its futuristic design and innovative powertrain, the Sián Roadster represents the pinnacle of Lamborghini's engineering and performance.",
     price: "$3,700,000",
@@ -158,6 +170,7 @@ const data = [
     power: "350 CV",
     max_speed: "260km/h",
     acceleration: "6.8s",
+    image: "./asset/jarama.jpg",
     description:
       "The Lamborghini Jarama GT is a classic grand tourer from the 1970s, featuring a 3.9-liter V12 engine and distinctive styling. Known for its luxurious interior and refined performance, the Jarama GT is a testament to Lamborghini's heritage of elegance and power.",
     price: "$350,000",
@@ -168,6 +181,7 @@ const data = [
     power: "385 CV",
     max_speed: "290km/h",
     acceleration: "6.7s",
+    image: "./asset/miura.jpg",
     description:
       "The Miura P400 SV is an iconic supercar from the 1970s, often considered the first true supercar. With its mid-engine layout and stunning design, the Miura SV set new standards for performance and aesthetics in the automotive world.",
     price: "$3,000,000",
