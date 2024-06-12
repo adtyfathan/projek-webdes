@@ -322,90 +322,105 @@ const data = [
 
 const news = [
     {
+        id: 0,
         title: "MERCEDES-AMG GT LANDS WITH $136,050 BASE PRICE",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
+        description: "Mercedes-AMG has unveiled the latest iteration of its high-performance GT, marking a significant milestone with a base price of $136,050. This new model builds on the brand’s storied legacy of blending luxury with cutting-edge performance. Under the hood, the 2024 AMG GT features a formidable V8 engine, engineered to deliver both exhilarating speed and precision handling. This powertrain, coupled with advanced aerodynamics, ensures that the AMG GT is not just a car, but a statement on the road.Inside, the 2024 AMG GT offers a sumptuous cabin that reflects Mercedes- AMG’s commitment to luxury and innovation.Premium materials, state - of - the - art technology, and meticulous craftsmanship create an environment that is both comfortable and highly functional.Drivers can enjoy an array of modern amenities, from the latest infotainment systems to advanced driver assistance features, all designed to enhance the driving experience while maintaining the highest standards of safety and convenience.With the launch of this new model, Mercedes - AMG aims to solidify its position as a leader in the premium sports car segment.The AMG GT is designed to compete at the highest levels of the market, appealing to enthusiasts who demand both performance and refinement.As Mercedes - AMG continues to push the boundaries of automotive engineering, the 2024 AMG GT stands as a testament to their dedication to excellence, offering a vehicle that promises to thrill and delight its drivers.",
         date: "8 JUNE 2024",
         image: "./asset/mercedes_n.jpg"
     },
     {
+        id: 1,
         title: "ASTON MARTIN GETS SERIOUS ABOUT PERFORMANCE",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
         date: "4 JUNE 2024",
         image: "./asset/aston_n.jpg"
     },
     {
+        id: 2,
         title: "BMW Z4 ADDS MANUAL TRANSMITION",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
         date: "3 JUNE 2024",
         image: "./asset/bmw_n.jpg"
     },
     {
+        id: 3,
         title: "MERCEDES-AMG GT LANDS WITH $136,050 BASE PRICE",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
         date: "8 JUNE 2024",
         image: "./asset/mercedes_n.jpg"
     },
     {
+        id: 4,
         title: "ASTON MARTIN GETS SERIOUS ABOUT PERFORMANCE",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
         date: "4 JUNE 2024",
         image: "./asset/aston_n.jpg"
     },
     {
+        id: 5,
         title: "BMW Z4 ADDS MANUAL TRANSMITION",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
         date: "3 JUNE 2024",
         image: "./asset/bmw_n.jpg"
     },
     {
+        id: 6,
         title: "MERCEDES-AMG GT LANDS WITH $136,050 BASE PRICE",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
         date: "8 JUNE 2024",
         image: "./asset/mercedes_n.jpg"
     },
     {
+        id: 7,
         title: "ASTON MARTIN GETS SERIOUS ABOUT PERFORMANCE",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
         date: "4 JUNE 2024",
         image: "./asset/aston_n.jpg"
     },
     {
+        id: 8,
         title: "BMW Z4 ADDS MANUAL TRANSMITION",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
         date: "3 JUNE 2024",
         image: "./asset/bmw_n.jpg"
     },
     {
+        id: 9,
         title: "MERCEDES-AMG GT LANDS WITH $136,050 BASE PRICE",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
         date: "8 JUNE 2024",
         image: "./asset/mercedes_n.jpg"
     },
     {
+        id: 10,
         title: "ASTON MARTIN GETS SERIOUS ABOUT PERFORMANCE",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
         date: "4 JUNE 2024",
         image: "./asset/aston_n.jpg"
     },
     {
+        id: 11,
         title: "BMW Z4 ADDS MANUAL TRANSMITION",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
         date: "3 JUNE 2024",
         image: "./asset/bmw_n.jpg"
     },
     {
+        id: 12,
         title: "MERCEDES-AMG GT LANDS WITH $136,050 BASE PRICE",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
+        description: "",
         date: "8 JUNE 2024",
         image: "./asset/mercedes_n.jpg"
     },
     {
+        id: 13,
         title: "ASTON MARTIN GETS SERIOUS ABOUT PERFORMANCE",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
         date: "4 JUNE 2024",
         image: "./asset/aston_n.jpg"
     },
     {
+        id: 14,
         title: "BMW Z4 ADDS MANUAL TRANSMITION",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
         date: "3 JUNE 2024",

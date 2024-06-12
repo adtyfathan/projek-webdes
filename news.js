@@ -1,6 +1,7 @@
 import { news } from "./datas.js";
 
 const newsWrapper = document.querySelector(".news-wrapper");
+const newsButton = document.querySelector(".news-button");
 
 news.forEach(item => {
     const contentDiv = document.createElement("div");
@@ -15,5 +16,20 @@ news.forEach(item => {
             </div>
         </div>
     `;
+    const button = contentDiv.querySelector(".news-button");
+    button.addEventListener("click", () => redirect(item));
     newsWrapper.appendChild(contentDiv);
 })
+
+// newsButton.addEventListener("click", () => {
+//     var queryString = new URLSearchParams(item).toString();
+//     window.location.href = `./news-child.html?${queryString}`;
+//     console.log(queryString);
+// });
+
+function redirect(item) {
+    var queryString = new URLSearchParams(item).toString();
+    window.location.href = `./news-child.html?${queryString}`;
+    console.log(queryString);
+}
+
