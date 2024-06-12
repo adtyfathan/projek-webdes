@@ -639,106 +639,106 @@ const data = [
 const news = [
     {
         title: "MERCEDES-AMG GT LANDS WITH $136,050 BASE PRICE",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
-        date: "8 JUNE 2024",
-        image: "./asset/mercedes_n.jpg",
+    description:
+      "Mercedes-AMG recently launched the latest GT model with a base price of $136,000. This luxurious sports car features an elegant aerodynamic design and a powerful twin-turbo V8 engine, delivering exceptional performance. Known for its comfort and advanced technology, the Mercedes-AMG GT offers an unparalleled driving experience, making it a top choice for high-end sports car enthusiasts. Other standout features include a state-of-the-art infotainment system and various customization options to suit the driver's taste and needs.",
+    date: "8 JUNE 2024",
+    image: "./asset/mercedes_n.jpg",
+  },
+  {
+    title: "ASTON MARTIN GETS SERIOUS ABOUT PERFORMANCE",
+    description:
+      "Aston Martin has recently made significant strides in enhancing its performance credentials, signaling a serious commitment to delivering high-performance vehicles. The brand has introduced several new models and updates that emphasize power, speed, and advanced engineering. Key developments include the launch of the Aston Martin Valkyrie, a hypercar developed in collaboration with Red Bull Racing, boasting a hybrid powertrain and cutting-edge aerodynamics. Additionally, the new Vantage and DB11 models have received performance upgrades, including more powerful engines and improved handling dynamics. Aston Martin's focus on performance is further underscored by its re-entry into Formula 1, leveraging motorsport technology and expertise to refine its production cars. This renewed emphasis on performance positions Aston Martin as a formidable player in the luxury sports car market, appealing to enthusiasts seeking both luxury and exhilarating driving experiences..",
+    date: "4 JUNE 2024",
+    image: "./asset/aston_n.jpg",
+  },
+  {
+    title: "BMW Z4 ADDS MANUAL TRANSMITION",
+    description:
+      "BMW has introduced a manual transmission option for its Z4 roadster, catering to enthusiasts who prefer the traditional driving experience of a stick shift. Available in the sDrive30i and M40i models, this addition underscores BMW's commitment to driving pleasure and responds to customer demand. The manual gearbox enhances the sporty, open-top driving experience of the Z4, making it more appealing to purists and strengthening its position in the roadster market..",
+    date: "3 JUNE 2024",
+    image: "./asset/bmw_n.jpg",
     },
     {
-        title: "ASTON MARTIN GETS SERIOUS ABOUT PERFORMANCE",
+    title: "Tesla Introduces Next-Generation Autopilot Technology",
+    description:
+      "Tesla has unveiled its next-generation Autopilot technology, promising significant advancements in autonomous driving capabilities. The new system features improved sensor integration, enhanced AI algorithms, and greater processing power, allowing for more accurate and reliable self-driving functionality. Key updates include better lane-keeping, smoother navigation through complex traffic scenarios, and increased safety measures. This development marks a major step forward in Tesla's mission to deliver fully autonomous vehicles, positioning the company at the forefront of the self-driving car industry.",
+    date: "8 JUNE 2024",
+    image: "./asset/mercedes_n.jpg",
+    },
+    {
+        title: "Rivian Announces the New R1S Electric SUV",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
+            "Rivian has announced the launch of its new R1S electric SUV, expanding its lineup of innovative electric vehicles. The R1S boasts impressive features such as a long-range battery, all-wheel drive, and advanced off-road capabilities. With a focus on sustainability, the SUV offers a spacious and luxurious interior equipped with the latest technology. The R1S is designed to cater to both adventure enthusiasts and eco-conscious consumers, highlighting Rivian's commitment to combining performance, luxury, and environmental responsibility in its vehicles.",
         date: "4 JUNE 2024",
         image: "./asset/aston_n.jpg",
     },
     {
-        title: "BMW Z4 ADDS MANUAL TRANSMITION",
+        title: "BMW X7 2024 Review: Luxury and Practicality",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
+            "The 2024 BMW X7 has been reviewed, showcasing a perfect blend of luxury and practicality. This full-size SUV features a refined interior with premium materials, cutting-edge technology, and spacious seating for up to seven passengers. The 2024 model also includes updated styling and advanced driver assistance systems. Its powerful engine options ensure a smooth and dynamic driving experience, while the versatile cargo space enhances practicality. The BMW X7 2024 stands out as an excellent choice for those seeking both opulence and everyday functionality in an SUV.",
         date: "3 JUNE 2024",
         image: "./asset/bmw_n.jpg",
     },
     {
-        title: "MERCEDES-AMG GT LANDS WITH $136,050 BASE PRICE",
+        title: "Porsche Taycan Debuts Hybrid Model with Extended Range",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
+            "Porsche has introduced a hybrid version of its acclaimed Taycan, offering drivers an extended range and enhanced efficiency. Combining the performance of an electric motor with the flexibility of a hybrid drivetrain, the new Taycan variant delivers impressive acceleration and reduced emissions. With advanced battery technology and regenerative braking, drivers can enjoy longer journeys without compromising on Porsche's signature driving experience. The Taycan hybrid represents a significant step towards sustainable mobility, reaffirming Porsche's commitment to innovation and environmental responsibility in the luxury automotive market.",
         date: "8 JUNE 2024",
         image: "./asset/mercedes_n.jpg",
     },
     {
-        title: "ASTON MARTIN GETS SERIOUS ABOUT PERFORMANCE",
+        title: "Track-Focused McLaren 765LT: Lightweight, Aerodynamic, and Exhilarating",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
+            "Introducing the latest marvel from McLaren: the track-focused 765LT. This high-performance masterpiece is designed to thrill, with a focus on lightweight construction, aerodynamic precision, and heart-pounding excitement. Boasting a powerful engine and a host of enhancements derived from McLaren's racing expertise, the 765LT promises an adrenaline-fueled driving experience like no other. With its aggressive styling and relentless pursuit of performance, the McLaren 765LT is set to redefine the limits of what's possible on the track.",
         date: "4 JUNE 2024",
         image: "./asset/aston_n.jpg",
     },
     {
-        title: "BMW Z4 ADDS MANUAL TRANSMITION",
+        title: "Ford GT Mk II: Unleashing Track-Only Performance with Enhanced Aero and Power",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
+            "Ford has unveiled its latest track monster: the GT Mk II. This track-only powerhouse takes performance to new heights with its enhanced aerodynamics and power. Built for the sole purpose of dominating the racetrack, the GT Mk II boasts a potent engine and a suite of aerodynamic upgrades, derived from Ford's racing expertise. With its aggressive stance and uncompromising focus on track performance, the GT Mk II promises to deliver an adrenaline-fueled experience that pushes the boundaries of speed and precision. Get ready to unleash the full potential of track driving with the Ford GT Mk II.",
         date: "3 JUNE 2024",
         image: "./asset/bmw_n.jpg",
     },
     {
-        title: "MERCEDES-AMG GT LANDS WITH $136,050 BASE PRICE",
+        title: "Rolls-Royce Ghost Black Badge Series",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
+            "Experience the epitome of luxury with the latest offering from Rolls-Royce: the Ghost Black Badge Series. Crafted for those who demand nothing but the best, this exclusive lineup elevates the iconic Ghost to new heights of opulence and sophistication. Featuring a distinctive blacked-out aesthetic and a range of bespoke enhancements, the Black Badge Series exudes an aura of mystery and refinement. Step inside and immerse yourself in a world of unparalleled comfort and craftsmanship, where every detail is meticulously curated to exceed the highest standards of luxury. From the whisper-quiet cabin to the exhilarating performance, the Rolls-Royce Ghost Black Badge Series sets a new standard for automotive excellence, redefining what it means to indulge in luxury on the road.",
         date: "8 JUNE 2024",
         image: "./asset/mercedes_n.jpg",
     },
     {
-        title: "ASTON MARTIN GETS SERIOUS ABOUT PERFORMANCE",
+        title: "Revolutionizing Urban Mobility: Volkswagen ID. Buzz Electric Microbus",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
+            "Get ready to experience the future of urban transportation with Volkswagen's ID. Buzz Electric Microbus. This innovative vehicle combines iconic retro design with cutting-edge electric technology to create a versatile and eco-friendly solution for urban commuters. With its spacious interior and customizable seating configurations, the ID. Buzz offers unparalleled flexibility for city dwellers, whether it's for daily commuting or weekend adventures. Equipped with advanced driver-assistance systems and seamless connectivity features, this electric microbus delivers a smooth and effortless driving experience. Join the electric revolution and rediscover the joy of urban mobility with the Volkswagen ID. Buzz Electric Microbus.",
         date: "4 JUNE 2024",
         image: "./asset/aston_n.jpg",
     },
     {
-        title: "BMW Z4 ADDS MANUAL TRANSMITION",
+        title: "Redefining Performance: Lamborghini Huracan STO",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
+            "Prepare to be amazed by Lamborghini's latest creation: the Huracan STO. This track-focused marvel is engineered to push the boundaries of performance, delivering an adrenaline-pumping driving experience like no other. With its lightweight construction, aerodynamic enhancements, and race-inspired design, the Huracan STO is built for uncompromising speed and agility on both the road and track. Powered by a roaring V10 engine, this supercar combines raw power with precision handling, allowing drivers to unleash their full potential on every corner and straightaway. Whether you're a seasoned track enthusiast or a thrill-seeking aficionado, the Lamborghini Huracan STO promises to redefine your expectations of what a high-performance supercar can achieve.",
         date: "3 JUNE 2024",
         image: "./asset/bmw_n.jpg",
     },
     {
-        title: "MERCEDES-AMG GT LANDS WITH $136,050 BASE PRICE",
+        title: "Exploring the Future: Mercedes-Benz EQS Electric Sedan",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
+            "Embark on a journey into the future of luxury motoring with the Mercedes-Benz EQS Electric Sedan. This groundbreaking vehicle represents the pinnacle of electric innovation, offering a glimpse into the next generation of automotive excellence. With its sleek and aerodynamic design, the EQS redefines what it means to be a luxury sedan, combining cutting-edge technology with unparalleled comfort and performance. Equipped with the latest electric drivetrain technology, the EQS delivers instantaneous power and a whisper-quiet ride, all while producing zero emissions. Step inside the spacious and meticulously crafted interior, where state-of-the-art features and premium materials create a truly luxurious driving environment. From its advanced infotainment system to its intelligent driver-assistance technologies, the Mercedes-Benz EQS sets a new standard for electric luxury sedans, paving the way for a sustainable and exhilarating future on the road.",
         date: "8 JUNE 2024",
         image: "./asset/mercedes_n.jpg",
     },
     {
-        title: "ASTON MARTIN GETS SERIOUS ABOUT PERFORMANCE",
+        title: "Innovation in Motion: BMW iX Electric SUV",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
+            "Experience the future of mobility with the BMW iX Electric SUV. Representing a bold leap forward in electric vehicle technology, the iX combines BMW's iconic design language with cutting-edge electric powertrains to deliver a driving experience that's both exhilarating and sustainable. With its spacious interior, advanced driver-assistance systems, and state-of-the-art infotainment features, the iX redefines what it means to drive an electric SUV. From its sleek aerodynamics to its powerful electric motors, every aspect of the iX is designed to maximize efficiency and performance. Get ready to explore the world in style with the BMW iX Electric SUV.",
         date: "4 JUNE 2024",
         image: "./asset/aston_n.jpg",
     },
     {
-        title: "BMW Z4 ADDS MANUAL TRANSMITION",
+        title: "Legendary Performance: Porsche 911 GT3",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
-        date: "3 JUNE 2024",
-        image: "./asset/bmw_n.jpg",
-    },
-    {
-        title: "MERCEDES-AMG GT LANDS WITH $136,050 BASE PRICE",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
-        date: "8 JUNE 2024",
-        image: "./asset/mercedes_n.jpg",
-    },
-    {
-        title: "ASTON MARTIN GETS SERIOUS ABOUT PERFORMANCE",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
-        date: "4 JUNE 2024",
-        image: "./asset/aston_n.jpg",
-    },
-    {
-        title: "BMW Z4 ADDS MANUAL TRANSMITION",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra lacus eget dui iaculis aliquam. Quisque in euismod diam. Aliquam mollis tortor ut tellus elementum, eget luctus tortor fringilla.",
+            "Unleash the thrill of pure driving with the Porsche 911 GT3. Renowned for its unrivaled performance and precision engineering, the GT3 is the ultimate expression of Porsche's motorsport heritage. With its high-revving naturally aspirated engine, track-tuned suspension, and aerodynamic enhancements, the GT3 delivers an adrenaline-fueled driving experience like no other. From its iconic silhouette to its race-inspired cockpit, every aspect of the GT3 is designed to push the limits of performance on both the road and the track. Strap in and get ready to experience the legendary performance of the Porsche 911 GT3.",
         date: "3 JUNE 2024",
         image: "./asset/bmw_n.jpg",
     },
