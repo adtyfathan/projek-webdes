@@ -6,7 +6,7 @@ const data = [
         max_speed: "350km/h",
         acceleration: "2.5s",
         image: "./asset/revuelto_m1.jpg",
-        image_overview: "./asset/revuelto_overview2.jpeg",
+        image_overview: "./asset/revuelto_overview.jpeg",
         image_engine: "./asset/revuelto_engine.jpg",
         image_interior: "./asset/revuelto_interior2-transformed.jpeg",
         image_exterior: "./asset/revuelto_eksterior3.jpg",
