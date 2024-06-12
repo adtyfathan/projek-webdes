@@ -6,9 +6,17 @@ const data = [
         max_speed: "350km/h",
         acceleration: "2.5s",
         image: "./asset/revuelto_m1.jpg",
+        image_overview: "",
+        image_engine: "",
+        image_interior: "",
+        image_exterior: "",
         description: "Just before the 60th anniversary of the marque, Lamborghini unveiled Revuelto, the first HPEV (High Performance Electrified Vehicle) hybrid super sports car. With the Revuelto, Lamborghini has established a new benchmark in performance, on-board technology, and driving pleasure. The ultimate thrill provided by the Revuelto is reached thanks to a powertrain that delivers 1015 CV total, combining the power of a brand-new 12-cylinder internal combustion engine with three high-density electric motors and a groundbreaking transversal dual clutch e-gearbox. The power of hybridization is harnessed to take performance and driving emotions to an unprecedented level.",
         power_consumption: "10,1 kWh/100 Km (WLTP)",
-        price: "$2,000,000"
+        price: "$2,000,000",
+        overview: "Just before the 60th anniversary of the marque, Lamborghini unveiled Revuelto, the first HPEV (High Performance Electrified Vehicle) hybrid super sports car. With the Revuelto, Lamborghini has established a new benchmark in performance, on-board technology, and driving pleasure. The ultimate thrill provided by the Revuelto is reached thanks to a powertrain that delivers 1015 CV total, combining the power of a brand-new 12-cylinder internal combustion engine with three high-density electric motors and a groundbreaking transversal dual clutch e-gearbox. The power of hybridization is harnessed to take performance and driving emotions to an unprecedented level.",
+        engine: "",
+        interior: "",
+        exterior: ""
     },
     {
         brand: "Lamborghini",
