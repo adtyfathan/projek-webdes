@@ -705,35 +705,35 @@ const news = [
         description:
             "Experience the epitome of luxury with the latest offering from Rolls-Royce: the Ghost Black Badge Series. Crafted for those who demand nothing but the best, this exclusive lineup elevates the iconic Ghost to new heights of opulence and sophistication. Featuring a distinctive blacked-out aesthetic and a range of bespoke enhancements, the Black Badge Series exudes an aura of mystery and refinement. Step inside and immerse yourself in a world of unparalleled comfort and craftsmanship, where every detail is meticulously curated to exceed the highest standards of luxury. From the whisper-quiet cabin to the exhilarating performance, the Rolls-Royce Ghost Black Badge Series sets a new standard for automotive excellence, redefining what it means to indulge in luxury on the road.",
         date: "8 JUNE 2024",
-        image: "./asset/mercedes_n.jpg",
+        image: "./asset/ghost.jpg",
     },
     {
         title: "Revolutionizing Urban Mobility: Volkswagen ID. Buzz Electric Microbus",
         description:
             "Get ready to experience the future of urban transportation with Volkswagen's ID. Buzz Electric Microbus. This innovative vehicle combines iconic retro design with cutting-edge electric technology to create a versatile and eco-friendly solution for urban commuters. With its spacious interior and customizable seating configurations, the ID. Buzz offers unparalleled flexibility for city dwellers, whether it's for daily commuting or weekend adventures. Equipped with advanced driver-assistance systems and seamless connectivity features, this electric microbus delivers a smooth and effortless driving experience. Join the electric revolution and rediscover the joy of urban mobility with the Volkswagen ID. Buzz Electric Microbus.",
         date: "4 JUNE 2024",
-        image: "./asset/aston_n.jpg",
+        image: "./asset/buzz.jpg",
     },
     {
         title: "Redefining Performance: Lamborghini Huracan STO",
         description:
             "Prepare to be amazed by Lamborghini's latest creation: the Huracan STO. This track-focused marvel is engineered to push the boundaries of performance, delivering an adrenaline-pumping driving experience like no other. With its lightweight construction, aerodynamic enhancements, and race-inspired design, the Huracan STO is built for uncompromising speed and agility on both the road and track. Powered by a roaring V10 engine, this supercar combines raw power with precision handling, allowing drivers to unleash their full potential on every corner and straightaway. Whether you're a seasoned track enthusiast or a thrill-seeking aficionado, the Lamborghini Huracan STO promises to redefine your expectations of what a high-performance supercar can achieve.",
         date: "3 JUNE 2024",
-        image: "./asset/bmw_n.jpg",
+        image: "./asset/sto.jpg",
     },
     {
         title: "Exploring the Future: Mercedes-Benz EQS Electric Sedan",
         description:
             "Embark on a journey into the future of luxury motoring with the Mercedes-Benz EQS Electric Sedan. This groundbreaking vehicle represents the pinnacle of electric innovation, offering a glimpse into the next generation of automotive excellence. With its sleek and aerodynamic design, the EQS redefines what it means to be a luxury sedan, combining cutting-edge technology with unparalleled comfort and performance. Equipped with the latest electric drivetrain technology, the EQS delivers instantaneous power and a whisper-quiet ride, all while producing zero emissions. Step inside the spacious and meticulously crafted interior, where state-of-the-art features and premium materials create a truly luxurious driving environment. From its advanced infotainment system to its intelligent driver-assistance technologies, the Mercedes-Benz EQS sets a new standard for electric luxury sedans, paving the way for a sustainable and exhilarating future on the road.",
         date: "8 JUNE 2024",
-        image: "./asset/mercedes_n.jpg",
+        image: "./asset/eqs.jpg",
     },
     {
         title: "Innovation in Motion: BMW iX Electric SUV",
         description:
             "Experience the future of mobility with the BMW iX Electric SUV. Representing a bold leap forward in electric vehicle technology, the iX combines BMW's iconic design language with cutting-edge electric powertrains to deliver a driving experience that's both exhilarating and sustainable. With its spacious interior, advanced driver-assistance systems, and state-of-the-art infotainment features, the iX redefines what it means to drive an electric SUV. From its sleek aerodynamics to its powerful electric motors, every aspect of the iX is designed to maximize efficiency and performance. Get ready to explore the world in style with the BMW iX Electric SUV.",
         date: "4 JUNE 2024",
-        image: "./asset/aston_n.jpg",
+        image: "./asset/bmw_ix.jpg",
     },
     {
         title: "Legendary Performance: Porsche 911 GT3",
