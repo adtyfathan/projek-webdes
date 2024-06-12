@@ -13,7 +13,7 @@
     position: fixed;
     top: 0%;
     z-index: 99;
-    padding: 25px 0;
+    padding: 15px 0;
 }
 
 .nav-container {
@@ -38,7 +38,7 @@
 }
 
 .footer-container {
-    width: 50%;
+    width: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,6 +97,7 @@
 
 .landing-container h1 {
     font-size: 84px;
+    margin-bottom: 25px;
 }
 
 .slide-wrapper {
