@@ -740,7 +740,7 @@ const news = [
         description:
             "Unleash the thrill of pure driving with the Porsche 911 GT3. Renowned for its unrivaled performance and precision engineering, the GT3 is the ultimate expression of Porsche's motorsport heritage. With its high-revving naturally aspirated engine, track-tuned suspension, and aerodynamic enhancements, the GT3 delivers an adrenaline-fueled driving experience like no other. From its iconic silhouette to its race-inspired cockpit, every aspect of the GT3 is designed to push the limits of performance on both the road and the track. Strap in and get ready to experience the legendary performance of the Porsche 911 GT3.",
         date: "3 JUNE 2024",
-        image: "./asset/bmw_n.jpg",
+        image: "./asset/911_gt3.jpg",
     },
 ];
 
