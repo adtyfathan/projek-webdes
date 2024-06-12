@@ -14,9 +14,9 @@ const data = [
         power_consumption: "10,1 kWh/100 Km (WLTP)",
         price: "$2,000,000",
         overview: "Just before the 60th anniversary of the marque, Lamborghini unveiled Revuelto, the first HPEV (High Performance Electrified Vehicle) hybrid super sports car. With the Revuelto, Lamborghini has established a new benchmark in performance, on-board technology, and driving pleasure. The ultimate thrill provided by the Revuelto is reached thanks to a powertrain that delivers 1015 CV total, combining the power of a brand-new 12-cylinder internal combustion engine with three high-density electric motors and a groundbreaking transversal dual clutch e-gearbox. The power of hybridization is harnessed to take performance and driving emotions to an unprecedented level.",
-        engine: "",
-        interior: "",
-        exterior: ""
+        engine: "The Revuelto entirely rewrites the Lamborghini technical paradigm, starting with the iconic V12 engine that finds in the first Lamborghini hybrid a chance for evolution. Consumption and emission values*: Fuel consumption combined: 11,86 l/100km; Power consumption combined: 10,1 kWh/100 Km; CO2-emissions combined: 276 g/km; CO2 Efficiency class combined: G; CO2 efficiency class with discharged battery: G; Fuel consumption with discharged battery combined: 17,8 l/100km; WLTP values",
+        interior: "The interior of the Revuelto brings the “Feel Like a Pilot” concept to its utmost expression: simple volumes, symmetry, and a driver-focused approach make the cockpit an empowering station for the driver. The futuristic environment creates a seamless connection between driver and machine, while exclusive hexagon-shaped elements fulfill the dual mission of evoking past models and highlighting brand-new functional features.",
+        exterior: "The Revuelto upholds Lamborghini's legacy while introducing a fresh era with its exterior design. The car's silhouette maintains the classic single center line, but the sharply defined lines and sleek negative radii give it a modern, high-tech appearance, clearly positioning the Revuelto in the latest generation of Lamborghini supercars. The renowned V12 engine is prominently showcased at the rear."
     },
     {
         brand: "Lamborghini",
