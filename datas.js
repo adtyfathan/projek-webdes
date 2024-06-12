@@ -26,7 +26,11 @@ const data = [
         acceleration: "2.8s",
         image: "./asset/aventador_m.jpg",
         description: "The Aventador SVJ is the ultimate expression of the Lamborghini DNA. Combining the most advanced technological solutions and the highest expression of aerodynamics with the purity of its lines, the SVJ is a true icon of speed and performance. With a naturally aspirated V12 engine and lightweight construction, it delivers unparalleled power and driving dynamics.",
-        price: "$517,770"
+        price: "$517,770",
+        overview: "Lamborghini created the Aventador SVJ to embrace challenges head-on, combining cutting-edge technology with extraordinary design, while always refusing to compromise. In a future driven by technology, it’s easy to lose the genuine thrill of driving. But in the future shaped by Lamborghini, this won’t be left behind, because there will always be a driver behind the wheel. ",
+        engine: "The Revuelto entirely rewrites the Lamborghini technical paradigm, starting with the iconic V12 engine that finds in the first Lamborghini hybrid a chance for evolution. Consumption and emission values*: Fuel consumption combined: 11,86 l/100km; Power consumption combined: 10,1 kWh/100 Km; CO2-emissions combined: 276 g/km; CO2 Efficiency class combined: G; CO2 efficiency class with discharged battery: G; Fuel consumption with discharged battery combined: 17,8 l/100km; WLTP values",
+        interior: "The technological look of carbon fiber, featured in the monocoque as well as the doors, seats, center tunnel and console, coexists with a design of clear aeronautical inspiration, while the leather and Alcantara upholstery adds a bold touch to the luxurious interior. But it is the refined details of the cross-stitching and special SVJ plaque that confer a truly unique character to this remarkable engineering gem.",
+        exterior: "Ultra-lightweight materials developed for maximum performance give rise to breathtaking design. Enhanced aerodynamic profiles, a fully redesigned front end, larger side skirts, the omega-shaped rear wing and lighter, and higher exhaust outlets are incorporated into the feather-light carbon-fiber chassis. A special edition of just 63 examples, known as the SVJ 63 and featuring an exclusive color and finishes, highlights the extensive use of carbon fiber. "
     },
     {
         brand: "Lamborghini",
