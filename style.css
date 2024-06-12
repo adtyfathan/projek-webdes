@@ -157,7 +157,6 @@
     display: flex;
     padding: 0 100px;
     align-items: center;
-
 }
 
 .brand-content {
@@ -540,6 +539,12 @@
 
 .news-content-child-header {
     font-size: 72px;
+}
+
+.news-content-child-image {
+    object-fit: cover;
+    width: 100%;
+    margin: 50px 0;
 }
 
 .news-content-child-date {

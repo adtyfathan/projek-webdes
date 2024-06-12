@@ -32,9 +32,6 @@ data.forEach(item => {
         contentDiv.classList.remove("model-active");
     })
     modelContainer.appendChild(contentDiv);
-    // <div>
-    //      <h1/>
-    // </div>
 })
 
 function changeDisplay(item) {

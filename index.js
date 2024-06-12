@@ -1,11 +1,16 @@
-import { data } from "./datas.js";
+import { news } from "./datas.js";
 
 let activeSlide = 2;
 
+const redirectBtn0 = document.getElementById("home-button0");
+const redirectBtn1 = document.getElementById("home-button1");
+const redirectBtn2 = document.getElementById("home-button2");
+const redirectBtn3 = document.getElementById("home-button3");
 
-data.map(x => {
-    console.log(x.model);
-});
+redirectBtn0.addEventListener("click", () => redirect(0));
+redirectBtn1.addEventListener("click", () => redirect(1));
+redirectBtn2.addEventListener("click", () => redirect(2));
+redirectBtn3.addEventListener("click", () => redirect(3));
 
 setSlideHeader();
 
@@ -37,4 +42,10 @@ function setSlideHeader() {
         document.querySelector(".slide-header").innerHTML = "REVUELTO"
         document.querySelector(".slide-sub").innerHTML = "LAMBORGHINI"
     }
+}
+
+function redirect(index) {
+    var queryString = new URLSearchParams(news[index]).toString();
+    window.location.href = `./news-child.html?${queryString}`;
+    console.log(queryString);
 }

@@ -1,7 +1,6 @@
 import { news } from "./datas.js";
 
 const newsWrapper = document.querySelector(".news-wrapper");
-const newsButton = document.querySelector(".news-button");
 
 news.forEach(item => {
     const contentDiv = document.createElement("div");

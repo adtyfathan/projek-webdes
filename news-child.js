@@ -8,7 +8,6 @@ function getQueryParams() {
 
 window.onload = function () {
     const params = getQueryParams();
-    // headerImg.setAttribute("src", params.get("image"));
     let contentDiv = document.createElement("div");
     contentDiv.innerHTML = `
         <div class="banner">
@@ -17,7 +16,7 @@ window.onload = function () {
             <p class="banner-child" style="margin-left: 15px;">${params.get("title")}</p>
         </div>
         <h1 class="news-content-child-header">${params.get("title")}</h1>
-        <img src="${params.get("image")}" style="margin: 50px 0;"/>
+        <img src="${params.get("image")}" class="news-content-child-image"/>
         <p class="news-content-child-date">${params.get("date")}</p>
         <p class="news-content-child-desc">${params.get("description")}</p>
         <h1 style="margin: 100px 0 50px 0">OTHER NEWS</h1>
