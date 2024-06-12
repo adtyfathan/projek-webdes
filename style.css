@@ -79,7 +79,6 @@
 .video-wrapper video {
     width: 100%;
     position: absolute;
-    /* object-fit: cover; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -89,15 +88,20 @@
 .landing-container {
     color: rgb(255, 255, 255);
     padding: 15% 0 0 100px;
+    overflow: hidden;
 }
 
 .landing-container h4 {
+    position: relative;
     font-size: 24px;
+    animation: slide-in 2s ease-out forwards;
 }
 
 .landing-container h1 {
+    position: relative;
     font-size: 84px;
     margin-bottom: 25px;
+    animation: slide-in 2s ease-out forwards;
 }
 
 .slide-wrapper {
@@ -138,23 +142,15 @@
 }
 
 .slide-header {
-    animation: slideIn 1s ease-out forwards;
+    position: relative;
+    margin-bottom: 25px;
+    animation: slide-in 2s ease-out forwards;
 }
 
 .slide-sub {
-    animation: slideIn 1s ease-out forwards;
-}
-
-@keyframes slideIn {
-    from {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
+    position: relative;
+    margin-bottom: 25px;
+    animation: slide-in 2s ease-out forwards;
 }
 
 .brand-container {
@@ -566,8 +562,12 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
+}
+
+.contact-text h1 {
+    margin-bottom: 30px;
 }
 
 .contact-form {
@@ -620,4 +620,25 @@
 
 .contact-button:hover {
     color: rgb(160, 160, 160);
+}
+
+@keyframes reveal {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+        
+    }
+}
+
+@keyframes slide-in {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0;
+    }
 }

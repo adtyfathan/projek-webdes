@@ -33,42 +33,42 @@ window.onload = function () {
         
         <div class="model-child-content">
             <div class="model-child-image">
-                <img src="${params.get("image")}" class="model-child-image" width="100"/>
+                <img src="${params.get("image_overview")}" class="model-child-image" width="100"/>
             </div>
             
             <div class="model-child-text">
                 <h1>OVERVIEW</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet lacus quis enim lacinia, ut maximus ipsum luctus. Vestibulum sed est aliquet tellus ornare condimentum. Vestibulum felis arcu, ultrices in laoreet et, vehicula tempor lorem. Curabitur scelerisque, turpis a finibus iaculis, lacus est eleifend quam, nec gravida nulla tortor ac nunc. Aliquam erat volutpat. Curabitur ac tortor vel lacus vehicula commodo. In quis nisl eu mi viverra sagittis eu id velit. Nam elementum libero quis hendrerit convallis. Duis in turpis efficitur, venenatis libero et, faucibus ante.</p>
+                <p>${params.get("overview")}</p>
             </div>
         </div>
 
         <div class="model-child-content">
             <div class="model-child-engine">
                 <h1>ENGINE</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet lacus quis enim lacinia, ut maximus ipsum luctus. Vestibulum sed est aliquet tellus ornare condimentum. Vestibulum felis arcu, ultrices in laoreet et, vehicula tempor lorem. Curabitur scelerisque, turpis a finibus iaculis, lacus est eleifend quam, nec gravida nulla tortor ac nunc. Aliquam erat volutpat. Curabitur ac tortor vel lacus vehicula commodo. In quis nisl eu mi viverra sagittis eu id velit. Nam elementum libero quis hendrerit convallis. Duis in turpis efficitur, venenatis libero et, faucibus ante.</p>
+                <p>${params.get("engine")}</p>
             </div>
             <div class="model-child-engine-img">
-                <img src="${params.get("image")}" class="model-child-image" width="100"/>
+                <img src="${params.get("image_engine")}" class="model-child-image" width="100"/>
             </div>
         </div>
 
         <div class="model-child-layout">
             <div class="model-child-layout-image">
-                <img src="${params.get("image")}" />
+                <img src="${params.get("image_interior")}" />
             </div>
             <div class="model-child-layout-image" style="position: absolute; right: 0;">
-                <img src="${params.get("image")}" />
+                <img src="${params.get("image_exterior")}" />
             </div>
         </div>
 
         <div class="model-child-desc">
             <div>
                 <h1>INTERIOR</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet lacus quis enim lacinia, ut maximus ipsum luctus. Vestibulum sed est aliquet tellus ornare condimentum. Vestibulum felis arcu, ultrices in laoreet et, vehicula tempor lorem. Curabitur scelerisque, turpis a finibus iaculis, lacus est eleifend quam, nec gravida nulla tortor ac nunc.</p>
+                <p>${params.get("interior")}</p>
             </div>
             <div>
                 <h1>EXTERIOR</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet lacus quis enim lacinia, ut maximus ipsum luctus. Vestibulum sed est aliquet tellus ornare condimentum. Vestibulum felis arcu, ultrices in laoreet et, vehicula tempor lorem. Curabitur scelerisque, turpis a finibus iaculis, lacus est eleifend quam, nec gravida nulla tortor ac nunc.</p>
+                <p>${params.get("exterior")}</p>
             </div>
         </div>
 
